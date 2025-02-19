@@ -21,11 +21,18 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
-
+Part 1
+https://portal.azure.com/
+(Create our Virtual Machines)
+1. Create a Resource Group
+2. Create a Windows 10 Virtual Machine (VM)
+   1. While creating the VM, select the previously created Resource Group
+   2. While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet
+3. Create a Linux (Ubuntu) VM
+   1. While creating the VM, select the previously created Resource Group and Virtual Network—the Virtual Network MUST BE THE SAME.
+   2. Authentication type: Username/Password
+4. Ensure both VMs are in the same Virtual Network / Subnet
+5. End the lab, but keep both VMs for Part 2!
 <h2>Actions and Observations</h2>
 
 <p>
